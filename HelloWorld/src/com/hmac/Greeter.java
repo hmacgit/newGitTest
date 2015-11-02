@@ -7,4 +7,8 @@ public class Greeter {
     public String sayHello() {
         return "Hello world!";
     }
+
+    public String HiRMI(){
+        return "Hi from RMI!";
+    }
 }
