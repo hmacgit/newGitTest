@@ -7,4 +7,10 @@ public class Greeter {
     public String sayHello() {
         return "Hello world!";
     }
+
+    public String sayMorning(){
+        return "Good Morning";
+    }
+
+
 }
