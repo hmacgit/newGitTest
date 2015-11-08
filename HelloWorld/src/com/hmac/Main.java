@@ -1,6 +1,7 @@
 package com.hmac;
 
 import java.util.Date;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,12 @@ public class Main {
         for (int i = 5; i > 0; i--)
             System.out.println(i);
         System.out.println("LAUNCH");
+
+        //rmi featured F2 number 5
+        // printing random numbers 1 to 10
+        Random rnum = new Random();
+            System.out.println("random number 0-10 = " + rnum.nextInt(10));
+
 
 
     }
