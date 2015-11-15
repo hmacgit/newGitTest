@@ -1,5 +1,6 @@
 package com.hmac;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Random;
 
@@ -23,6 +24,10 @@ public class Main {
         Random rnum = new Random();
             System.out.println("random number 0-10 = " + rnum.nextInt(10));
 
+
+        ArrayList<User> userList = new ArrayList<User>();
+        userList.add(new User("Iron", "Man"));
+        userList.add(new User("Captain","America"));
 
 
     }
