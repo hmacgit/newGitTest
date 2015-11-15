@@ -9,6 +9,13 @@ public class Main {
         OddOrEven oddOrEven = new OddOrEven();
         oddOrEven.getOddOrEven(5);
 
+        //Feature 4 - 8;
+        for (int i = 10; i> 0; i--){
+            System.out.print("The number: " + i + " ");
+            oddOrEven.getOddOrEven(i);
+        }
+
+
 
     }
 }
