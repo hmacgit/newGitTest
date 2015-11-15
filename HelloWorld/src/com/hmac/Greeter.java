@@ -8,6 +8,10 @@ public class Greeter {
         return "Hello world!";
     }
 
+    public String HiRMI(){
+        return "Hi from RMI!";
+    }
+
     public String sayMorning(){
         return "Good Morning";
     }
