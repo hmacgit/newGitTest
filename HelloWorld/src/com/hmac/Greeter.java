@@ -12,5 +12,7 @@ public class Greeter {
         return "Good Morning";
     }
 
+    //Feature 4 - 9 //mvn package success but this code fails.
+    public String HowAreyou() {return how are you;}
 
 }
