@@ -29,6 +29,8 @@ public class Main {
         userList.add(new User("Iron", "Man"));
         userList.add(new User("Captain","America"));
 
+        ArrayList<Membership> memberList = new ArrayList<Membership>();
+        userList.add(new User("super, "heroes"));
 
     }
 }
