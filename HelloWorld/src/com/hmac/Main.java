@@ -29,8 +29,9 @@ public class Main {
         userList.add(new User("Iron", "Man"));
         userList.add(new User("Captain","America"));
 
-        ArrayList<Membership> memberList = new ArrayList<Membership>();
-        userList.add(new User("super, "heroes"));
+        //F3 this is an error but mvn package is successful
+        System.out.prinln(errormessage);
+
 
     }
 }
