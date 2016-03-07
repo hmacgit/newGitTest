@@ -16,8 +16,5 @@ public class Greeter {
         return "Good Morning";
     }
 
-    public String sayGoodAfternoon(){
-        return "good afternoon";
-    }
 
 }
