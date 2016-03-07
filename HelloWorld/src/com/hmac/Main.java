@@ -23,7 +23,7 @@ public class Main {
             oddOrEven.getOddOrEven(i);
         }
 
-
+        System.out.print("This is a working line from resnoate");
 
 
         //rmi feature F2 number 4
