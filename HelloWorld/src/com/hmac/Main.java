@@ -45,6 +45,8 @@ public class Main {
         //F3 this is an error but mvn package is successful
         System.out.prinln(errormessage);
 
+        System.out.prinln("RMI");
+
 
     }
 }
