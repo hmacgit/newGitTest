@@ -29,8 +29,8 @@ public class Main {
         userList.add(new User("Iron", "Man"));
         userList.add(new User("Captain","America"));
 
-        //F3 this is an error but mvn package is successful
-        System.out.prinln(errorMessage);
+
+        System.out.prinln("RMI");
 
 
     }
