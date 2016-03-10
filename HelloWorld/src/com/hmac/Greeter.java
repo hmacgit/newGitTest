@@ -8,7 +8,11 @@ public class Greeter {
         return "Hello world!";
     }
 
-    public String HiRMI(){
-        return "Hi from RMI!";
+    public String sayMorning(){
+        return "Good Morning";
     }
+
+    //Feature 4 - 9 //mvn package success but this code fails.
+    public String HowAreyou() {return how are you;}
+
 }

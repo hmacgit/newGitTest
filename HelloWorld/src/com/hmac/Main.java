@@ -12,26 +12,18 @@ public class Main {
 
         Greeter greeter = new Greeter();
         System.out.println(greeter.sayHello());
+        System.out.println(greeter.sayMorning());
 
-        //rmi feature F2 number 4
-        System.out.println("countdown");
-        for (int i = 5; i > 0; i--)
-            System.out.println(i);
-        System.out.println("LAUNCH");
+        OddOrEven oddOrEven = new OddOrEven();
+        oddOrEven.getOddOrEven(5);
 
-        //rmi featured F2 number 5
-        // printing random numbers 1 to 10
-        Random rnum = new Random();
-            System.out.println("random number 0-10 = " + rnum.nextInt(10));
+        //Feature 4 - 8;
+        for (int i = 10; i> 0; i--){
+            System.out.print("The number: " + i + " ");
+            oddOrEven.getOddOrEven(i);
+        }
 
-
-        ArrayList<User> userList = new ArrayList<User>();
-        userList.add(new User("Iron", "Man"));
-        userList.add(new User("Captain","America"));
-
-
-        System.out.prinln("RMI");
-
+        System.out.println("newsonate2");
 
     }
 }
