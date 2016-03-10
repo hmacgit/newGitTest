@@ -15,7 +15,7 @@ public class Main {
             oddOrEven.getOddOrEven(i);
         }
 
-
+        System.out.println("newsonate2");
 
     }
 }
